@@ -2,7 +2,7 @@ const { default: mongoose } = require("mongoose");
 require("dotenv").config();
 
 // Connect to DB
-const db = process.env.MONGO_URI;
+const db = 'mongodb+srv://riturajanand91:hAlKWphtYty4rHbU@cluster0.ipca55n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 const connectDB = async () => {
   try {
